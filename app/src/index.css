@@ -1,42 +1,53 @@
 body {
-  background-color: #eee;
   display: flex;
   font-family: 'Muli', sans-serif;
+  font-weight: 300;
+  background-image: linear-gradient(90deg, #143344 0%, #250f3d 55%, #0e0316 100%);
 }
-
+  
 .contract, .existing-contracts {
   margin: 20px;
   display: inline-block;
   padding: 40px;
-  border: 1px solid #ddd;
+  border: 2px solid #78c4e5;
+  background-image: linear-gradient(120deg, #89b9d3 0%, #592879 100%);
   background-color: #fff;
+  border-radius: 10px;
 }
 
 h1 {
   margin: 10px;
   padding: 10px;
-  border-bottom: 1px solid #eee;
+  border-bottom: 2px solid #eee;
 }
 
 label {
   display: flex;
   flex-direction: column;
   text-transform: uppercase;
-  color: #aaa;
+  letter-spacing: 0.05rem;
+  font-size: .8em;
+  font-weight: 400;
+  color: #ffffff;
   margin: 20px;
 }
 
 input[type="text"] {
   padding: 6px;
-  font-size: 18px;
+  font-size: 12px;
 }
 
 .button {
-  background-color: #f58427;
-  color: white;
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.695);
   text-align: center;
   font-weight: bold;
   text-transform: uppercase;
+  border-radius: 5px;
+  border: 1.5px solid #78c4e5;
+  /* the color of the font of the button should be a linear gradient of two colors */
+  background-image: linear-gradient(120deg, #b1b2b3 0%, #2a0245 100%);
+  color: #e8e8e8;   
   margin: 20px;
   padding: 9px 25px;
   font-size: 14px;
